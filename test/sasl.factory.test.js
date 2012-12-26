@@ -44,7 +44,7 @@
       expect(factory.create(['FOO'])).to.be.an.instanceOf(FooMechanism);
     });
     
-    it('should create a supported mechanism from second preference', function() {
+    it('should create a supported mechanism from second offered mechanism', function() {
       expect(factory.create(['BAR', 'FOO'])).to.be.an.instanceOf(FooMechanism);
     });
     
@@ -62,8 +62,8 @@
       expect(factory.create(['FOO'])).to.be.an.instanceOf(FooMechanism);
     });
     
-    it('should create a supported mechanism from first preference', function() {
-      expect(factory.create(['BAR', 'FOO'])).to.be.an.instanceOf(BarMechanism);
+    it('should create a supported mechanism from first preferred mechanism', function() {
+      expect(factory.create(['BAR', 'FOO'])).to.be.an.instanceOf(FooMechanism);
     });
   });
   
