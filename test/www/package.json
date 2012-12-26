@@ -1,0 +1,10 @@
+{
+  "volo": {
+    "baseUrl": "js/lib",
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.1.2",
+      "mocha": "github:visionmedia/mocha/1.7.4",
+      "chai": "github:chaijs/chai/1.4.1"
+    }
+  }
+}
