@@ -1,7 +1,7 @@
 (function(root, factory) {
   if (typeof exports === 'object') {
     // CommonJS
-    factory(require('sasl/lib/factory'));
+    factory(require('../lib/factory'));
   } else if (typeof define === 'function' && define.amd) {
     // AMD
     define(['sasl/lib/factory'], factory);
