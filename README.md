@@ -30,6 +30,19 @@ Register supported SASL mechanisms.
 factory.use(require('sasl-plain'));
 ```
 
+## Compatibility
+
+##### Browser
+
+This module is [AMD](https://github.com/amdjs/amdjs-api)-compliant, and can be
+loaded by module loaders such as [RequireJS](http://requirejs.org/).
+
+This module is optimized for use with [Anchor](https://github.com/anchorjs/anchor).
+
+##### Node
+
+This module is compatible with [Node](http://nodejs.org/).
+
 ## Mechanisms
 
 |Mechanism                                              |Developer                                       |
