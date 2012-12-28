@@ -6,6 +6,10 @@ mechanisms when performing authentication in connection-oriented protocols.
 
 ## Install
 
+##### npm
+
+    $ npm install saslmechanisms
+
 ##### volo
 
     $ volo add jaredhanson/js-sasl sasl
