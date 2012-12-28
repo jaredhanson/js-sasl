@@ -1,5 +1,5 @@
 {
-  "name": "sasl",
+  "name": "saslmechanisms",
   "version": "0.0.0",
   "description": "JavaScript framework for SASL authentication.",
   "keywords": ["sasl", "auth", "authn", "authentication", "security"],
