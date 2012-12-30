@@ -30,6 +30,18 @@ Register supported SASL mechanisms.
 factory.use(require('sasl-plain'));
 ```
 
+## Mechanisms
+
+|Mechanism                                                                          |Developer                                       |
+|-----------------------------------------------------------------------------------|------------------------------------------------|
+|[ANONYMOUS](https://github.com/jaredhanson/js-sasl-anonymous)                      |[Jared Hanson](https://github.com/jaredhanson)  |
+|[DIGEST-MD5](https://github.com/jaredhanson/js-sasl-digest-md5)                    |[Jared Hanson](https://github.com/jaredhanson)  |
+|[EXTERNAL](https://github.com/jaredhanson/js-sasl-external)                        |[Jared Hanson](https://github.com/jaredhanson)  |
+|[PLAIN](https://github.com/jaredhanson/js-sasl-plain)                              |[Jared Hanson](https://github.com/jaredhanson)  |
+|[XOAUTH2](https://github.com/jaredhanson/js-sasl-xoauth2)                          |[Jared Hanson](https://github.com/jaredhanson)  |
+|[X-FACEBOOK-PLATFORM](https://github.com/jaredhanson/js-sasl-x-facebook-platform)  |[Jared Hanson](https://github.com/jaredhanson)  |
+|[X-OAUTH2](https://github.com/jaredhanson/js-sasl-x-oauth2)                        |[Jared Hanson](https://github.com/jaredhanson)  |
+
 ## Compatibility
 
 ##### Browser
@@ -42,12 +54,6 @@ This module is optimized for use with [Anchor](https://github.com/anchorjs/ancho
 ##### Node
 
 This module is compatible with [Node](http://nodejs.org/).
-
-## Mechanisms
-
-|Mechanism                                              |Developer                                       |
-|-------------------------------------------------------|------------------------------------------------|
-|[PLAIN](https://github.com/jaredhanson/js-sasl-plain)  |[Jared Hanson](https://github.com/jaredhanson)  |
 
 ## Tests
 
