@@ -49,8 +49,8 @@ MOCHA = ./node_modules/.bin/mocha
 test-node:
 	@NODE_PATH=.. \
 	$(MOCHA) \
-		--require test/node/bootstrap \
-		--reporter spec $(TESTS)
+		--reporter spec \
+		--require test/node/bootstrap $(TESTS)
 
 
 # ==============================================================================
