@@ -79,7 +79,7 @@ To run tests in Node:
     
 ##### Status
 
-[![Travis CI](https://secure.travis-ci.org/jaredhanson/js-sasl.png)](http://travis-ci.org/jaredhanson/js-sasl) [![David DM](http://david-dm.org/jaredhanson/js-sasl.png)](http://david-dm.org/jaredhanson/js-sasl)
+[![Travis CI](https://secure.travis-ci.org/jaredhanson/js-sasl.png)](http://travis-ci.org/jaredhanson/js-sasl) [![David DM](https://david-dm.org/jaredhanson/js-sasl.png)](http://david-dm.org/jaredhanson/js-sasl)
 
 ## Credits
 
