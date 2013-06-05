@@ -25,7 +25,7 @@
   "devDependencies": {
     "mocha": "1.x.x",
     "chai": "1.x.x",
-    "mocha-phantomjs": "1.x.x",
+    "mocha-phantomjs": "2.x.x",
     "mocha-cloud": "0.0.1",
     "term-canvas": "0.0.5",
     "mocha-cloud-grid-view": "0.0.1",
