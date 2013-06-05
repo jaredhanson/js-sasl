@@ -31,7 +31,7 @@ test-phantomjs: node_modules test-browser
 
 test-browser: test/www/js/lib
 test/www/js/lib:
-	cd test/www && volo add
+	cd test/www && volo add -nostamp
 
 
 # Prior to running tests on Sauce Labs, ensure that a local server is listening
