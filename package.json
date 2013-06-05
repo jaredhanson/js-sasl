@@ -38,5 +38,12 @@
   "volo": {
     "dependencies": {
     }
+  },
+  "testling": {
+    "browsers": {
+      "chrome": [ 25 ]
+    },
+    "harness" : "mocha",
+    "files": "test/*.test.js"
   }
 }
