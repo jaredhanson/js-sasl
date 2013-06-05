@@ -46,7 +46,7 @@ factory.use(require('sasl-plain'));
 
 ##### Browser
 
-[![browser support](http://ci.testling.com/jaredhanson/js-sasl.png)](http://ci.testling.com/jaredhanson/js-sasl)
+[![browser support](https://ci.testling.com/jaredhanson/js-sasl.png)](http://ci.testling.com/jaredhanson/js-sasl)
 
 This module is [AMD](https://github.com/amdjs/amdjs-api)-compliant, and can be
 loaded by module loaders such as [RequireJS](http://requirejs.org/).
