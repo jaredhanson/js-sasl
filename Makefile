@@ -50,7 +50,7 @@ test-node:
 	@NODE_PATH=.. \
 	$(MOCHA) \
 		--reporter spec \
-		--require test/node/bootstrap $(TESTS)
+		--require test/bootstrap/node $(TESTS)
 
 
 # ==============================================================================
