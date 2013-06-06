@@ -14,8 +14,6 @@ mechanisms when performing authentication in connection-oriented protocols.
 
     $ volo add jaredhanson/js-sasl sasl
 
-For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
-
 ## Usage
 
 Create a SASL mechanism factory.
@@ -63,14 +61,9 @@ This module is compatible with [Node](http://nodejs.org/).
 
 To run tests in a browser, execute the Make target for the desired browser:
 
-    $ make test-chrome
     $ make test-firefox
+    $ make test-chrome
     $ make test-safari
-
-##### PhantomJS
-
-To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
-
     $ make test-phantomjs
 
 ##### Node
