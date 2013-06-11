@@ -4,7 +4,8 @@
     "dependencies": {
       "require": "github:jrburke/requirejs/2.x.x",
       "mocha": "github:visionmedia/mocha/1.x.x",
-      "chai": "github:chaijs/chai/1.x.x"
+      "chai": "github:chaijs/chai/1.x.x",
+      "mocha-results": "github:jaredhanson/mocha-results/1.x.x"
     }
   }
 }

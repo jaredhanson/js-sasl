@@ -1,8 +1,8 @@
 define(['require',
         'mocha',
         'chai',
-        'mocha-cloud'],
-function(require, mocha, chai, cloud) {
+        'mocha-results'],
+function(require, mocha, chai, results) {
   mocha.setup('bdd');
   expect = chai.expect
   
@@ -10,6 +10,6 @@ function(require, mocha, chai, cloud) {
            'test/sasl.factory.test'],
   function() {
     if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
-    else { cloud(mocha.run()); }
+    else { results(mocha.run()); }
   });
 });
