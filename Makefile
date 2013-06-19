@@ -1,6 +1,20 @@
 SOURCES = *.js lib/*.js
 TESTS = test/*.test.js
 
+# ==============================================================================
+# Packaging
+# ==============================================================================
+
+build-browserify:
+	mkdir -p build
+	browserify main.js -o build/bundle.js
+
+build-component: components
+	component build
+
+components:
+	component install
+
 
 # ==============================================================================
 # Browser Tests
@@ -76,9 +90,11 @@ lint:
 # ==============================================================================
 
 clean:
+	rm -rf build
 
 clobber: clean
 	rm -rf node_modules
+	rm -rf components
 	rm -rf test/www/js/lib
 
 

@@ -1,3 +1,4 @@
+build
 test/www/js/lib
 
 # Mac OS X
@@ -6,3 +7,6 @@ test/www/js/lib
 # Node.js
 node_modules
 npm-debug.log
+
+# Component
+components
