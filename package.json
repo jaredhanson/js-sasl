@@ -1,7 +1,7 @@
 {
   "name": "saslmechanisms",
   "version": "0.1.1",
-  "description": "JavaScript framework for SASL authentication.",
+  "description": "SASL mechanism factory.",
   "keywords": ["sasl", "auth", "authn", "authentication", "security"],
   "repository": {
     "type": "git",
