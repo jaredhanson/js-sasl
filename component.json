@@ -1,0 +1,13 @@
+{
+  "name": "sasl",
+  "version": "0.1.1",
+  "description": "JavaScript framework for SASL authentication.",
+  "keywords": ["sasl", "auth", "authn", "authentication", "security"],
+  "repo": "jaredhanson/js-sasl",
+  "main": "main.js",
+  "scripts": [
+    "main.js",
+    "lib/factory.js"
+  ],
+  "license": "MIT"
+}
