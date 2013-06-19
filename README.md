@@ -46,24 +46,26 @@ factory.use(require('sasl-plain'));
 
 [![browser support](https://ci.testling.com/jaredhanson/js-sasl.png)](http://ci.testling.com/jaredhanson/js-sasl)
 
-This module is [AMD](https://github.com/amdjs/amdjs-api)-compliant, and can be
-loaded by module loaders such as [RequireJS](http://requirejs.org/).
+##### Modules
 
-This module is optimized for use with [Anchor](https://github.com/anchorjs/anchor).
-
-##### Node
-
-This module is compatible with [Node](http://nodejs.org/).
+  - [AMD](https://github.com/amdjs/amdjs-api)
+  - [CommonJS](http://www.commonjs.org/)
+  - [Node](http://nodejs.org/)
 
 ## Tests
+
+[![Travis CI](https://secure.travis-ci.org/jaredhanson/js-sasl.png)](http://travis-ci.org/jaredhanson/js-sasl) [![David DM](https://david-dm.org/jaredhanson/js-sasl.png)](http://david-dm.org/jaredhanson/js-sasl)
 
 ##### Browser
 
 To run tests in a browser, execute the Make target for the desired browser:
 
-    $ make test-firefox
     $ make test-chrome
+    $ make test-firefox
     $ make test-safari
+    
+Headless tests can be executed directly from a terminal:
+    
     $ make test-phantomjs
 
 ##### Node
@@ -71,10 +73,6 @@ To run tests in a browser, execute the Make target for the desired browser:
 To run tests in Node:
 
     $ make test-node
-    
-##### Status
-
-[![Travis CI](https://secure.travis-ci.org/jaredhanson/js-sasl.png)](http://travis-ci.org/jaredhanson/js-sasl) [![David DM](https://david-dm.org/jaredhanson/js-sasl.png)](http://david-dm.org/jaredhanson/js-sasl)
 
 ## Credits
 
